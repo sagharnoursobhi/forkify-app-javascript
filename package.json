@@ -1,0 +1,25 @@
+{
+  "name": "forkify-app-javascript",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Saghar Noursobhi",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-postcss": "^2.8.3",
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "@parcel/config-default": "^2.8.3",
+    "@parcel/transformer-raw": "^2.8.3"
+  },
+  "dependencies": {
+    "fracty": "^1.0.11"
+  }
+}
